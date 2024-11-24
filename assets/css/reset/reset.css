@@ -5,6 +5,8 @@
   font-family: "Inter", sans-serif;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding: 8rem;
 }
 
 html,
@@ -13,6 +15,10 @@ body {
   height: 100%;
   font-size: 62.5%;
   color: var(--very-dark-blue);
+}
+
+body {
+  font-size: 1.5rem;
 }
 
 p {

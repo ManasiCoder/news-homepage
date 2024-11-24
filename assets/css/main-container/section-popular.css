@@ -25,6 +25,11 @@ section#popular {
 
       h3 {
         font-weight: 800;
+        transition: color 0.5s ease;
+      }
+
+      h3:hover {
+        color: var(--soft-red);
       }
 
       p {
