@@ -1,0 +1,36 @@
+nav.mobile {
+  div.menuOpen {
+    width: 70%;
+    height: 100dvh;
+    padding: 2rem;
+    display: none;
+    flex-direction: column;
+    gap: 8rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--white);
+  
+    img#closeMenu {
+      width: 100%;
+      max-width: 4rem;
+      align-self: end;
+    }
+  
+    ul {
+      display: grid;
+      gap: 3rem;
+      font-size: 1.8rem;
+      
+      a {
+        padding: 1rem;
+      }
+  
+      li,
+      a {
+        width: 100%;
+      }
+    }
+  }
+}
+

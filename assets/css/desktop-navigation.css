@@ -1,0 +1,16 @@
+nav.desktop {
+  ul {
+    display: flex;
+    gap: 1.6rem;
+
+    a {
+      padding: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  nav.desktop {
+    display: none;
+  }
+}
