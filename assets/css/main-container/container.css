@@ -2,7 +2,7 @@ main.container {
   width: 100%;
   max-width: 35rem;
   margin: 0 auto;
-  padding: 8rem 1rem;
+  padding: 9rem 1rem;
   display: grid;
   gap: 4rem;
 }
