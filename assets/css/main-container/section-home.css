@@ -21,6 +21,12 @@ section#home {
     border: none;
     background-color: var(--soft-red);
     cursor: pointer;
+    transition: color 0.5s ease, background-color 0.5s ease;
+  }
+
+  button:hover {
+    color: var(--white);
+    background-color: var(--very-dark-blue);
   }
 
   img.home-image-desktop {

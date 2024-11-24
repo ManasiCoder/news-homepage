@@ -4,6 +4,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  background-color: var(--white);
 
   div.logo {
     width: 100%;

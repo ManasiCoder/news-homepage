@@ -1,0 +1,35 @@
+section#popular {
+  display: grid;
+  gap: 2.4rem;
+
+  div.topic-popular {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+    img {
+      max-width: 12rem;
+    }
+
+    div.details {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.2rem;
+
+      h2 {
+        font-size: 3.6rem;
+        color: var(--soft-red);
+      }
+
+      h3 {
+        font-weight: 800;
+      }
+
+      p {
+        color: var(--dark-grayish-blue);
+      }
+    }
+  }
+}
