@@ -22,7 +22,7 @@ body {
 }
 
 p {
-  line-height: 150%;
+  line-height: 170%;
 }
 
 img {
@@ -35,4 +35,10 @@ a {
   display: block;
   color: var(--very-dark-blue);
   cursor: pointer;
+}
+
+@media screen and (min-width: 1080px) {
+  body {
+    padding: 2rem 0;
+  }
 }

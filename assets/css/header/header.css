@@ -24,3 +24,19 @@ header {
     }
   }
 }
+
+@media screen and (min-width: 1080px) {
+  header {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 1.6rem 1rem;
+    position: static;
+    background-color: transparent;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header {
+    max-width: 110rem;
+  }
+}

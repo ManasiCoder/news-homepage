@@ -35,3 +35,9 @@ section#new {
     border-bottom: 1px solid var(--dark-grayish-blue);
   }
 }
+
+@media screen and (min-width: 1080px) {
+  section#new {
+    grid-area: new;
+  }
+}

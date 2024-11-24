@@ -2,6 +2,7 @@ section#home {
   display: grid;
   gap: 2.4rem;
 
+
   h1 {
     font-size: 5rem;
     font-weight: 800;
@@ -29,7 +30,45 @@ section#home {
     background-color: var(--very-dark-blue);
   }
 
+
   img.home-image-desktop {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  section#home {
+    grid-template-columns: 1fr 29.3rem;
+    grid-template-areas:
+      "image image"
+      "title paragraph"
+      "title button";
+
+    img.home-image-desktop {
+      display: block;
+      grid-area: image;
+    }
+
+    h1 {
+      grid-area: title;
+    }
+
+    p {
+      grid-area: paragraph;
+    }
+
+    button {
+      grid-area: button;
+    }
+
+    img.home-image-mobile {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  section#home {
+    grid-template-columns: 1fr 32.5rem;
   }
 }
