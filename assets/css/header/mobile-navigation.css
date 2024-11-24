@@ -10,6 +10,7 @@ nav.mobile {
     top: 0;
     right: 0;
     background-color: var(--white);
+    z-index: 2;
   
     img#closeMenu {
       max-width: 4rem;
@@ -30,6 +31,18 @@ nav.mobile {
         width: 100%;
       }
     }
+  }
+
+  div.blur-display {
+    display: none;
+    position: absolute;
+    width: 100dvw;
+    height: 100dvh;
+    top: 0;
+    left: 0;
+    opacity: 60%;
+    z-index: 1;
+    background-color: var(--grayish-blue);
   }
 }
 

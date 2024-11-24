@@ -5,6 +5,11 @@ nav.desktop {
 
     a {
       padding: 1rem;
+      transition: color 0.5s ease;
+    }
+
+    a:hover {
+      color: var(--soft-red);
     }
   }
 }
